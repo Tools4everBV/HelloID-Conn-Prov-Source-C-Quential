@@ -1,0 +1,94 @@
+{
+    "personMappings": [
+        {
+            "name": "ExternalId",
+            "mode": "field",
+            "value": "ExternalId",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.Convention",
+            "mode": "field",
+            "value": "Convention",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.FamilyName",
+            "mode": "field",
+            "value": "LastName",
+            "validation": {
+                "required": true
+            }
+        },
+        {
+            "name": "Name.NickName",
+            "mode": "field",
+            "value": "FirstName",
+            "validation": {
+                "required": true
+            }
+        }
+    ],
+    "contractMappings": [
+        {
+            "name": "Department.DisplayName",
+            "mode": "field",
+            "value": "DepartmentName",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Department.ExternalId",
+            "mode": "field",
+            "value": "DepartmentCode",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "EndDate",
+            "mode": "field",
+            "value": "EndDate",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "ExternalId",
+            "mode": "field",
+            "value": "SequenceNumber",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "StartDate",
+            "mode": "field",
+            "value": "StartDate",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Title.ExternalId",
+            "mode": "field",
+            "value": "TitleCode",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Title.Name",
+            "mode": "field",
+            "value": "TitleName",
+            "validation": {
+                "required": false
+            }
+        }
+    ]
+}
